@@ -8,3 +8,74 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f8f9fa;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ff0073;
+    color: white;
+  }
+  
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: #ff0073;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ff0073;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0073;
+  }
+  
+  img {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
