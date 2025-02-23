@@ -37,10 +37,10 @@ gem "kamal", require: false
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
 
-gem 'httparty'
-gem 'bootstrap', '~> 5.3.0'
-gem 'sassc-rails'
-gem 'propshaft'
+gem "httparty"
+gem "bootstrap", "~> 5.3.0"
+gem "sassc-rails"
+gem "propshaft"
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
@@ -69,5 +69,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg' # Heroku PostgreSQL
+  gem "pg" # Heroku PostgreSQL
 end

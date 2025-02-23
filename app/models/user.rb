@@ -1,11 +1,11 @@
-require 'httparty'
+require "httparty"
 
 class User < ApplicationRecord
   include HTTParty
-  base_uri 'https://jsonplaceholder.typicode.com'
+  base_uri "https://jsonplaceholder.typicode.com"
 
   def self.all
-    get('/users')
+    get("/users")
   end
 
   def self.find(id)
