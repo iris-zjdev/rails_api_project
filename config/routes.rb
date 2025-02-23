@@ -17,5 +17,7 @@
 
 Rails.application.routes.draw do
   root "users#index"
+
+  get "/users", to: "users#index", as: "users"
   get "users/:id", to: "users#details", as: "user_details"
 end
