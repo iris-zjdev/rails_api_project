@@ -38,7 +38,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 gem "httparty"
-gem "bootstrap", "~> 5.3.0"
+gem "bootstrap", "~> 5.3.5"
 gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
